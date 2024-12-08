@@ -19,7 +19,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 $A$=120.00
 $i$=18.00% anualizado
 $r$=1.5% mensual
-$t$=36 meses
+$n$=36 meses
 
 Se realizan los cálculos:
 ```{r}
@@ -28,7 +28,7 @@ Anualidad=120
 tasaPeriodo=1.5
 nPeriodos=36
 # Calculamos el Valor Futuro:
-valorFuturo=ValorFuturoAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,t=nPeriodos)
+valorFuturo=ValorFuturoAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,n=nPeriodos)
 # Imprimimos el resultado :
 valorFuturo
 ```
@@ -40,7 +40,7 @@ Se obtendrá 5758.21 en un fondo de inversión durante 3 años iniciando desde h
 $VF$=575821
 $i$=18.00% anualizado
 $r$=1.5% mensual
-$t$=36 meses
+$n$=36 meses
 
 Se realizan los cálculos:
 ```{r}
@@ -49,7 +49,7 @@ valorFut=5758.21
 tasaPeriodo=1.5
 nPeriodos=36
 # Calculamos la Anualidad:
-Anualidad=AnualidadAnualidadesAnticipadas(VF=valorFut,r=tasaPeriodo,t=nPeriodos)
+Anualidad=AnualidadAnualidadesAnticipadas(VF=valorFut,r=tasaPeriodo,=nPeriodos)
 # Imprimimos el resultado :
 Anualidad
 ```
@@ -78,7 +78,7 @@ tiempo
 Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 ¿Cuál es la tasa de interes mensual y anualizada,de una persona que invierte $120 USD Mensuales en un fondo de inversión durante 3 años iniciando desde hoy, y al final tiene $5758.21 USD?
 $VF$=5758.21
-$t$=36 meses
+$n$=36 meses
 $A$=120
 
 Se realizan los cálculos:
@@ -99,7 +99,7 @@ Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 $A$=500.00
 $i$=36.00% anualizado
 $r$=3.00% mensual
-$t$=36 meses
+$n$=36 meses
 
 Se realizan los cálculos:
 ```{r}
@@ -108,7 +108,7 @@ Anualidad=500
 tasaPeriodo=3.00
 nPeriodos=36
 # Calculamos el Valor Actual:
-valorActual=ValorActualAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,t=nPeriodos)
+valorActual=ValorActualAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,n=nPeriodos)
 # Imprimimos el resultado :
 valorActual
 ```
@@ -119,7 +119,7 @@ A una persona le prestaron $11,243.61 a una tasa del 36% anual recapitalizable m
 $VA$=11243.61
 $i$=36.00% anualizado
 $r$=3.00% mensual
-$t$=36 meses
+$n$=36 meses
 
 Se realizan los cálculos:
 ```{r}
@@ -128,7 +128,7 @@ valorAct=11243.61
 tasaPeriodo=3.00
 nPeriodos=36
 # Calculamos la Anualidad:
-Anualidad=AnualidadVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,t=nPeriodos)
+Anualidad=AnualidadVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,n=nPeriodos)
 # Imprimimos el resultado :
 Anualidad
 ```
@@ -156,7 +156,7 @@ tiempo
 
 Para ilustrar el ejemplo se tiene el siguiente ejercicio:A una persona le prestaron $11,243.61 y debera pagar $500.00 al mes ,durante 36 meses .¿Cual es la tasa mnesual y anualizada que le dieron cuando se realizo el prestamo?
 $VA$=11243.61
-$t$=36 meses
+$n$=36 meses
 $A$=500
 
 Se realizan los cálculos:
