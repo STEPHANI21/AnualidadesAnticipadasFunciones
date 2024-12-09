@@ -46,7 +46,7 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con valores de entrada
 valorFut=5758.21
-tasaPeriodo=1.5
+tasaPeriodo=0.015
 nPeriodos=36
 # Calculamos la Anualidad:
 Anualidad=AnualidadAnualidadesAnticipadas(VF=valorFut,r=tasaPeriodo,n=nPeriodos)
@@ -66,7 +66,7 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con valores de entrada
 valorFut=5758.21
-tasaPeriodo=1.5
+tasaPeriodo=0.015
 Anualidad=120
 # Calculamos el tiempo:
 tiempo=tiempoAnualidadAnticpada(VF=valorFut,r=tasaPeriodo,A=Anualidad)
@@ -105,7 +105,7 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con valores de entrada
 Anualidad=500
-tasaPeriodo=3.00
+tasaPeriodo=0.03
 nPeriodos=36
 # Calculamos el Valor Actual:
 valorActual=ValorActualAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,n=nPeriodos)
@@ -125,7 +125,7 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con valores de entrada
 valorAct=11243.61
-tasaPeriodo=3.00
+tasaPeriodo=0.03
 nPeriodos=36
 # Calculamos la Anualidad:
 Anualidad=AnualidadVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,n=nPeriodos)
@@ -145,7 +145,7 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con valores de entrada
 valorAct=11243.61
-tasaPeriodo=3.003
+tasaPeriodo=0.03
 Anualidad=500
 # Calculamos el tiempo:
 tiempo=TiempoVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,A=Anualidad)
