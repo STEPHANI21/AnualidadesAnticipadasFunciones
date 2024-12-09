@@ -48,7 +48,7 @@ valorFut=5758.21
 tasaPeriodo=1.5
 nPeriodos=36
 # Calculamos la Anualidad:
-Anualidad=AnualidadAnualidadesAnticipadas(VF=valorFut,r=tasaPeriodo,=nPeriodos)
+Anualidad=AnualidadAnualidadesAnticipadas(VF=valorFut,r=tasaPeriodo,n=nPeriodos)
 # Imprimimos el resultado :
 Anualidad
 ```
