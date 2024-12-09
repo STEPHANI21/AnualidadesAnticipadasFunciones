@@ -25,7 +25,7 @@ Se realizan los cálculos:
 ```{r}
 # Creamos objetos con valores de entrada
 Anualidad=120
-tasaPeriodo=1.5
+tasaPeriodo=0.0015
 nPeriodos=36
 # Calculamos el Valor Futuro:
 valorFuturo=ValorFuturoAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,n=nPeriodos)
