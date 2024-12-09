@@ -128,7 +128,7 @@ valorAct=11243.61
 tasaPeriodo=0.03
 nPeriodos=36
 # Calculamos la Anualidad:
-Anualidad=AnualidadVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,n=nPeriodos)
+Anualidad=AnualidadVaAnualidadesAnticipadas(VA=valorAct,r=tasaPeriodo,n=nPeriodos)
 # Imprimimos el resultado :
 Anualidad
 ```
