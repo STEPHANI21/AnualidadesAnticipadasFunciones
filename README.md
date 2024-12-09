@@ -9,7 +9,7 @@ En este repositorio se agrupan las funciones y actividades informaticas realizad
 Con el siguiente código,puede usted cargar las funciones relativas a los calculos de anualidades anticipadas:
 
 ```{r}
-source("https://raw.githubusercontent.com/STEPHANI21/AnualidadesAnticipadasFunciones/refs/heads/main/formulasAnualidadesAnticipadas%20(1).R")
+source("https://raw.githubusercontent.com/STEPHANI21/AnualidadesAnticipadasFunciones/refs/heads/main/formulasAnualidadesAnticipadas%20(2).R")
 ```
 
 ### Cálculo del Valor Futuro en Anualidades Anticipadas 
