@@ -148,7 +148,7 @@ valorAct=11243.61
 tasaPeriodo=0.03
 Anualidad=500
 # Calculamos el tiempo:
-tiempo=TiempoVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,A=Anualidad)
+tiempo=TiempoVaAnualidadesAnticipadas(VA=valorAct,r=tasaPeriodo,A=Anualidad)
 # Imprimimos el resultado :
 tiempo
 ```
