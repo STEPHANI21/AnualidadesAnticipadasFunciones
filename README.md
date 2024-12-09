@@ -69,7 +69,7 @@ valorFut=5758.21
 tasaPeriodo=0.015
 Anualidad=120
 # Calculamos el tiempo:
-tiempo=tiempoAnualidadAnticpada(VF=valorFut,r=tasaPeriodo,A=Anualidad)
+tiempo=tiempoAnualidadAnticipada(VF=valorFut,r=tasaPeriodo,A=Anualidad)
 # Imprimimos el resultado :
 tiempo
 ```
