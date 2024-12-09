@@ -13,8 +13,9 @@ source("https://raw.githubusercontent.com/STEPHANI21/AnualidadesAnticipadasFunci
 ```
 
 ### Cálculo del Valor Futuro en Anualidades Anticipadas 
-Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 ¿Cuánto dinero se obtendrá si se invierten $120 USD Mensuales en un fondo de inversión durante 3 años iniciando desde hoy, si pagan una tasa de interés mensual del 1,5%?
+Para ilustrar el ejemplo se tiene el siguiente ejercicio:
+
 $A$=120.00
 $i$=18.00% anualizado
 $r$=1.5% mensual
@@ -33,9 +34,9 @@ valorFuturo
 ```
 
 ### Cálculo de la Anualidad en Anualidades Anticipadas con VF
-
-Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 Se obtendrá 5758.21 en un fondo de inversión durante 3 años iniciando desde hoy, si pagan una tasa de interés mensual del 1,5%.¿Cuanto debera pagar cada mes?
+Para ilustrar el ejemplo se tiene el siguiente ejercicio:
+
 $VF$=575821
 $i$=18.00% anualizado
 $r$=1.5% mensual
@@ -53,9 +54,9 @@ Anualidad=AnualidadAnualidadesAnticipadas(VF=valorFut,r=tasaPeriodo,n=nPeriodos)
 Anualidad
 ```
 ### Cálculo de el Numeros de pagos en Anualidades Anticipadas con VF
-
-Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 Cuánto tiempo se tardara si se invierten $120 USD Mensuales en un fondo de inversión para lograr obtener $5758.21 USD, si pagan una tasa de interés mensual del 1.5%
+Para ilustrar el ejemplo se tiene el siguiente ejercicio:
+
 $VF$=5758.21
 $i$=18.00% anualizado
 $r$=1.5% mensual
@@ -73,9 +74,9 @@ tiempo=tiempoAnualidadAnticpada(VF=valorFut,r=tasaPeriodo,A=Anualidad)
 tiempo
 ```
 ### Cálculo de la tasa del periodo en Anualidades Anticipada con VF
-
+¿Cuál es la tasa de interes mensual y anualizada,de una persona que invierte $120 USD Mensuales en un fondo de inversión durante 3 años iniciando desde hoy, y al final tiene $578.21 USD?
 Para ilustrar el ejemplo se tiene el siguiente ejercicio:
-¿Cuál es la tasa de interes mensual y anualizada,de una persona que invierte $120 USD Mensuales en un fondo de inversión durante 3 años iniciando desde hoy, y al final tiene $5758.21 USD?
+
 $VF$=5758.21
 $n$=36 meses
 $A$=120
@@ -112,9 +113,9 @@ valorActual=ValorActualAnualidadesAnticipadas(A=Anualidad,r=tasaPeriodo,n=nPerio
 valorActual
 ```
 ### Cálculo de la Anualidad en Anualidades Anticipadas con VA
+A una persona le prestaron $11,243.61 a una tasa del 36% anual recapitalizable mensualmente. Esto durante 36 meses ¿Cuánto debe pagar cada mes? 
 
 Para ilustrar el ejemplo se tiene el siguiente ejercicio:
-A una persona le prestaron $11,243.61 a una tasa del 36% anual recapitalizable mensualmente. Esto durante 36 meses ¿Cuánto debe pagar cada mes? 
 $VA$=11243.61
 $i$=36.00% anualizado
 $r$=3.00% mensual
@@ -132,9 +133,9 @@ Anualidad=AnualidadVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,n=nPeriod
 Anualidad
 ```
 ### Cálculo de el Numeros de pagos en Anualidades Anticipadas con VA
-
-Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 A una persona le prestaron $11,243.61 y debera pagar $500.00 al mes a una tasa del 36% anual recapitalizabl9e mensualmente.¿Cuantos meses debera pagar para liquidar el prestamo?
+Para ilustrar el ejemplo se tiene el siguiente ejercicio:
+
 $VA$=11243.61*
 $i$=36.00% anualizado
 $r$=3.000% mensual
@@ -152,8 +153,8 @@ tiempo=TiempoVaAnualidadesAnticipadasA(VA=valorAct,r=tasaPeriodo,A=Anualidad)
 tiempo
 ```
 ### Cálculo de la tasa del periodo en Anualidades Anticipadas con VA
-
-Para ilustrar el ejemplo se tiene el siguiente ejercicio:A una persona le prestaron $11,243.61 y debera pagar $500.00 al mes ,durante 36 meses .¿Cual es la tasa mnesual y anualizada que le dieron cuando se realizo el prestamo?
+A una persona le prestaron $11,243.61 y debera pagar $500.00 al mes ,durante 36 meses .¿Cual es la tasa mnesual y anualizada que le dieron cuando se realizo el prestamo?
+Para ilustrar el ejemplo se tiene el siguiente ejercicio:
 $VA$=11243.61
 $n$=36 meses
 $A$=500
